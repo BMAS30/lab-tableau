@@ -1,0 +1,1732 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20261.26.0226.1626                               -->
+<workbook original-version='18.1' source-build='2026.1.0 (20261.26.0226.1626)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AccessibleZoneTabOrder />
+    <AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='we_fn_use_c_marketing_customer_value_analysis' inline='true' name='federated.0t7x4580jmh8cp11oet0k1erx7l8' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='we_fn_use_c_marketing_customer_value_analysis' name='textscan.1nuhatv188gxn11gfgol801go0ri'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='C:/Users/Utilizador/Desktop/IronHack/Week6/Day1/we_fn_use_c_marketing_customer_value_analysis.txt' dataRefreshTime='' directory='C:/Users/Utilizador/Desktop/IronHack/Week6/Day1' filename='C:/Users/UTILIZ~1/AppData/Local/Temp/TableauTemp/0h584wu18idqjh10hj1sm0sygt0d/we_fn_use_c_marketing_customer_value_analysis.txt.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.1nuhatv188gxn11gfgol801go0ri' name='we_fn_use_c_marketing_customer_value_analysis.txt' table='[we_fn_use_c_marketing_cus#txt$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:X9135:no:A1:X9135:1' header='no' locale='pt_PT' separator=','>
+            <column datatype='string' name='Customer' ordinal='0' />
+            <column datatype='string' name='State' ordinal='1' />
+            <column datatype='real' name='F3' ordinal='2' />
+            <column datatype='string' name='Response' ordinal='3' />
+            <column datatype='string' name='Coverage' ordinal='4' />
+            <column datatype='string' name='Education' ordinal='5' />
+            <column datatype='date' name='F7' ordinal='6' />
+            <column datatype='string' name='EmploymentStatus' ordinal='7' />
+            <column datatype='string' name='Gender' ordinal='8' />
+            <column datatype='integer' name='F10' ordinal='9' />
+            <column datatype='string' name='Location Code' ordinal='10' />
+            <column datatype='string' name='Marital Status' ordinal='11' />
+            <column datatype='integer' name='F13' ordinal='12' />
+            <column datatype='integer' name='F14' ordinal='13' />
+            <column datatype='integer' name='F15' ordinal='14' />
+            <column datatype='integer' name='F16' ordinal='15' />
+            <column datatype='integer' name='F17' ordinal='16' />
+            <column datatype='string' name='Policy Type' ordinal='17' />
+            <column datatype='string' name='Policy' ordinal='18' />
+            <column datatype='string' name='Renew Offer Type' ordinal='19' />
+            <column datatype='string' name='Sales Channel' ordinal='20' />
+            <column datatype='real' name='F22' ordinal='21' />
+            <column datatype='string' name='Vehicle Class' ordinal='22' />
+            <column datatype='string' name='Vehicle Size' ordinal='23' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>1</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:X9135:no:A1:X9135:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>82219</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Customer]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Customer</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F3</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F3]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F3</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Response</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Response]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Response</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Coverage</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Coverage]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Coverage</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Education</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Education]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Education</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F7</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[F7]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F7</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>EmploymentStatus</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[EmploymentStatus]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>EmploymentStatus</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Gender</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Gender]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Gender</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F10</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F10]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F10</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Location Code</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Location Code]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Location Code</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Marital Status</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Marital Status]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Marital Status</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F13</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F13]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F13</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F14</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F14]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F14</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F15</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F15]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F15</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F16</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F16]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F16</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F17</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F17]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F17</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Policy Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Policy Type]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Policy Type</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Policy</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Policy]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Policy</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Renew Offer Type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Renew Offer Type]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Renew Offer Type</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales Channel</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sales Channel]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Sales Channel</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F22</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[F22]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>F22</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle Class</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Vehicle Class]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Vehicle Class</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Vehicle Size</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Vehicle Size]</local-name>
+            <parent-name>[we_fn_use_c_marketing_customer_value_analysis.txt]</parent-name>
+            <remote-alias>Vehicle Size</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LPT_RPT_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Customer]' role='dimension' type='nominal' />
+      <column caption='Income' datatype='integer' name='[F10]' role='measure' type='quantitative' />
+      <column caption='Monthly Premium Auto' datatype='integer' name='[F13]' role='measure' type='quantitative' />
+      <column caption='Months Since Last Claim' datatype='integer' name='[F14]' role='measure' type='quantitative' />
+      <column caption='Months Since Policy Inception' datatype='integer' name='[F15]' role='measure' type='quantitative' />
+      <column caption='Number of Open Complaints' datatype='integer' name='[F16]' role='measure' type='quantitative' />
+      <column caption='Number of Policies' datatype='integer' name='[F17]' role='measure' type='quantitative' />
+      <column caption='Total Claim Amount' datatype='real' name='[F22]' role='measure' type='quantitative' />
+      <column caption='Customer Lifetime Value' datatype='real' name='[F3]' role='measure' type='quantitative' />
+      <column caption='Effective To Date' datatype='date' name='[F7]' role='dimension' type='ordinal' />
+      <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Marital Status]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='we_fn_use_c_marketing_customer_value_analysis.txt' datatype='table' name='[__tableau_internal_object_id__].[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]' role='measure' type='quantitative' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='pt_BR' class='hyper' dbname='C:/Users/UTILIZ~1/AppData/Local/Temp/TableauTemp/#TableauTemp_0b2b3rn0b9rhbb10af0d60wl0465.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/24/2026 10:59:24 AM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Customer</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer</remote-alias>
+              <ordinal>0</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9134</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>State</remote-alias>
+              <ordinal>1</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F3</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F3</remote-alias>
+              <ordinal>2</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4310</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Response</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Response]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Response</remote-alias>
+              <ordinal>3</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Coverage</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Coverage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Coverage</remote-alias>
+              <ordinal>4</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Education</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Education]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Education</remote-alias>
+              <ordinal>5</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F7</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[F7]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F7</remote-alias>
+              <ordinal>6</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>59</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>EmploymentStatus</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[EmploymentStatus]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>EmploymentStatus</remote-alias>
+              <ordinal>7</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Gender</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Gender]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Gender</remote-alias>
+              <ordinal>8</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F10</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F10]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F10</remote-alias>
+              <ordinal>9</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3256</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Location Code</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Location Code]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Location Code</remote-alias>
+              <ordinal>10</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Marital Status</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Marital Status]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Marital Status</remote-alias>
+              <ordinal>11</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F13</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F13]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F13</remote-alias>
+              <ordinal>12</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>173</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F14</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F14]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F14</remote-alias>
+              <ordinal>13</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F15</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F15]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F15</remote-alias>
+              <ordinal>14</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>100</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F16</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F16]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F16</remote-alias>
+              <ordinal>15</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F17</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[F17]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F17</remote-alias>
+              <ordinal>16</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Policy Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Policy Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Policy Type</remote-alias>
+              <ordinal>17</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Policy</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Policy]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Policy</remote-alias>
+              <ordinal>18</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>9</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Renew Offer Type</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Renew Offer Type]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Renew Offer Type</remote-alias>
+              <ordinal>19</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sales Channel</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sales Channel]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sales Channel</remote-alias>
+              <ordinal>20</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>F22</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[F22]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>F22</remote-alias>
+              <ordinal>21</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2337</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vehicle Class</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Vehicle Class]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vehicle Class</remote-alias>
+              <ordinal>22</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Vehicle Size</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Vehicle Size]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Vehicle Size</remote-alias>
+              <ordinal>23</ordinal>
+              <family>we_fn_use_c_marketing_customer_value_analysis.txt</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LPT_RPT_S2' />
+              <object-id>[we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;PT&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='we_fn_use_c_marketing_customer_value_analysis.txt' id='we_fn_use_c_marketing_customer_value_analysis.txt_AF89A9AC676644828A80EDB51CE682B9'>
+            <properties context=''>
+              <relation connection='textscan.1nuhatv188gxn11gfgol801go0ri' name='we_fn_use_c_marketing_customer_value_analysis.txt' table='[we_fn_use_c_marketing_cus#txt$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:X9135:no:A1:X9135:1' header='no' locale='pt_PT' separator=','>
+                  <column datatype='string' name='Customer' ordinal='0' />
+                  <column datatype='string' name='State' ordinal='1' />
+                  <column datatype='real' name='F3' ordinal='2' />
+                  <column datatype='string' name='Response' ordinal='3' />
+                  <column datatype='string' name='Coverage' ordinal='4' />
+                  <column datatype='string' name='Education' ordinal='5' />
+                  <column datatype='date' name='F7' ordinal='6' />
+                  <column datatype='string' name='EmploymentStatus' ordinal='7' />
+                  <column datatype='string' name='Gender' ordinal='8' />
+                  <column datatype='integer' name='F10' ordinal='9' />
+                  <column datatype='string' name='Location Code' ordinal='10' />
+                  <column datatype='string' name='Marital Status' ordinal='11' />
+                  <column datatype='integer' name='F13' ordinal='12' />
+                  <column datatype='integer' name='F14' ordinal='13' />
+                  <column datatype='integer' name='F15' ordinal='14' />
+                  <column datatype='integer' name='F16' ordinal='15' />
+                  <column datatype='integer' name='F17' ordinal='16' />
+                  <column datatype='string' name='Policy Type' ordinal='17' />
+                  <column datatype='string' name='Policy' ordinal='18' />
+                  <column datatype='string' name='Renew Offer Type' ordinal='19' />
+                  <column datatype='string' name='Sales Channel' ordinal='20' />
+                  <column datatype='real' name='F22' ordinal='21' />
+                  <column datatype='string' name='Vehicle Class' ordinal='22' />
+                  <column datatype='string' name='Vehicle Size' ordinal='23' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Planilha 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1f2328' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='12'>Gender Barplot</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='we_fn_use_c_marketing_customer_value_analysis' name='federated.0t7x4580jmh8cp11oet0k1erx7l8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t7x4580jmh8cp11oet0k1erx7l8'>
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Customer]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Customer]' derivation='CountD' name='[ctd:Customer:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[ctd:Customer:qk]</rows>
+        <cols>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Gender:nk]</cols>
+      </table>
+      <simple-id uuid='{BF2D4608-84C7-41F2-B4D2-49BD90CE5542}' />
+    </worksheet>
+    <worksheet name='Planilha 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1f2328' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='12'>Employment and Gender Barplot</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='we_fn_use_c_marketing_customer_value_analysis' name='federated.0t7x4580jmh8cp11oet0k1erx7l8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t7x4580jmh8cp11oet0k1erx7l8'>
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Customer]' role='dimension' type='nominal' />
+            <column datatype='string' name='[EmploymentStatus]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column-instance column='[Customer]' derivation='CountD' name='[ctd:Customer:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[EmploymentStatus]' derivation='None' name='[none:EmploymentStatus:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:EmploymentStatus:nk]</rows>
+        <cols>([federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Gender:nk] * [federated.0t7x4580jmh8cp11oet0k1erx7l8].[ctd:Customer:qk])</cols>
+      </table>
+      <simple-id uuid='{9CDA09C2-A7C7-4252-B7F3-317DFAC722B9}' />
+    </worksheet>
+    <worksheet name='Planilha 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1f2328' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='12'>State Treeplot Sheet</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='we_fn_use_c_marketing_customer_value_analysis' name='federated.0t7x4580jmh8cp11oet0k1erx7l8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t7x4580jmh8cp11oet0k1erx7l8'>
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Customer]' role='dimension' type='nominal' />
+            <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column-instance column='[Customer]' derivation='CountD' name='[ctd:Customer:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[State]' derivation='None' name='[none:State:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0t7x4580jmh8cp11oet0k1erx7l8].[ctd:Customer:qk]' />
+              <size column='[federated.0t7x4580jmh8cp11oet0k1erx7l8].[ctd:Customer:qk]' />
+              <text column='[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:State:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{237BFFC5-867C-45E7-877F-D7A5022E157E}' />
+    </worksheet>
+    <worksheet name='Planilha 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#1f2328' fontname='-apple-system,BlinkMacSystemFont,Segoe UI,Noto Sans,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji' fontsize='12'>Marital Status and Gender Cross Table</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='we_fn_use_c_marketing_customer_value_analysis' name='federated.0t7x4580jmh8cp11oet0k1erx7l8' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0t7x4580jmh8cp11oet0k1erx7l8'>
+            <column datatype='string' name='[Gender]' role='dimension' type='nominal' />
+            <column aggregation='CountD' datatype='string' default-role='measure' default-type='quantitative' name='[Marital Status]' role='dimension' type='nominal' />
+            <column-instance column='[Marital Status]' derivation='Count' name='[cnt:Marital Status:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Gender]' derivation='None' name='[none:Gender:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Marital Status]' derivation='None' name='[none:Marital Status:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0t7x4580jmh8cp11oet0k1erx7l8].[cnt:Marital Status:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Gender:nk]</rows>
+        <cols>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Marital Status:nk]</cols>
+      </table>
+      <simple-id uuid='{D4BF6F75-EC20-4575-ABE7-10E1ADDF6CEF}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard enable-sort-zone-taborder='true' name='Painel 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Marketing customer value analysis</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98214' id='5' param='vert' type-v2='layout-flow' w='99064' x='468' y='893'>
+            <zone h='4688' id='7' type-v2='title' w='99064' x='468' y='893'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone h='93526' id='6' type-v2='layout-basic' w='99064' x='468' y='5581' />
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='69978' id='8' name='Planilha 1' w='33294' x='1112' y='7813' />
+        <zone h='35714' id='9' name='Planilha 2' w='54827' x='42657' y='11607' />
+        <zone h='42188' id='10' name='Planilha 3' w='34874' x='42422' y='50223' />
+        <zone h='16071' id='11' name='Planilha 4' w='17847' x='77648' y='55580' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run>Marketing customer value analysis</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1100' minheight='1100' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='15' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98214' id='14' param='vert' type-v2='layout-flow' w='99064' x='468' y='893'>
+                <zone h='4688' id='7' type-v2='title' w='99064' x='468' y='893'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='69978' id='8' is-fixed='true' name='Planilha 1' w='33294' x='1112' y='7813'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='35714' id='9' is-fixed='true' name='Planilha 2' w='54827' x='42657' y='11607'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='42188' id='10' is-fixed='true' name='Planilha 3' w='34874' x='42422' y='50223'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='128' h='16071' id='11' is-fixed='true' name='Planilha 4' w='17847' x='77648' y='55580'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{012D988B-0437-4D9F-8266-A57E285F11BA}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Planilha 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{208D2C00-4A9B-45DA-AF86-9B08D6F06A29}' />
+    </window>
+    <window class='worksheet' name='Planilha 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:EmploymentStatus:nk]</field>
+            <field>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Gender:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{5F859AC5-500B-4550-9D23-8B85DCE7D40E}' />
+    </window>
+    <window class='worksheet' name='Planilha 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.0t7x4580jmh8cp11oet0k1erx7l8].[ctd:Customer:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:State:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{89645FD5-C844-4C12-9293-882660F6F4E1}' />
+    </window>
+    <window class='worksheet' name='Planilha 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Gender:nk]</field>
+            <field>[federated.0t7x4580jmh8cp11oet0k1erx7l8].[none:Marital Status:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{8CD29B1F-604C-47DF-986E-69A6388B7148}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Painel 1'>
+      <viewpoints>
+        <viewpoint name='Planilha 1'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Planilha 2' />
+        <viewpoint name='Planilha 3' />
+        <viewpoint name='Planilha 4' />
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{731A0F59-9E0F-40F1-AB69-AD927422DDCB}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Painel 1' width='192'>
+      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
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 1' width='190'>
+      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
+      v60b5jsArnOcAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 2' width='192'>
+      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
+      qAAAAABJRU5ErkJggg==
+    </thumbnail>
+    <thumbnail height='192' name='Planilha 3' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAADw0lEQVR4nO3YXWscZRzG4f/sTja7eWlqqmAVEemJB35NP4efw+8gCCKILQh9kdakxjRN
+      stlsdscTxRbHo9ZZwn1dR/s8MHAf7A9mt+m6risINdr0ANgkARCtffPw9Tff1sOnR5vaAoN7
+      K4CfH/9W3z98tqktMDivQERr+y6/evBJHZ28rul2W/s703p1Pq8Hn35Yvx6f1mJ5U4vrm5ps
+      tdWORzVfLKvrqq6ul3V2cTX0fngnvQF0XVevL6/q8/v36/DObm2143p2dFptO6rZaFIf7O/U
+      xfy6uqr66O5erdbr2p1t13c/PRl4Pryb3gCev3xVB3uzOv7jvB49Pa7lclWr9bqapqmD3Wk9
+      Pp9XU1VdVY2bpg72ZvXi97Nhl8N70BvAydnlfz4wXyz/dXfZcwe3gR/BRBMA0QRANAEQTQBE
+      EwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQ
+      TQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQB
+      EE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEK198/DlFx/XuB1vagsM7q0Aflnc
+      1I9Xy01tgcF5BSJabwD700kd7k6H3gKDa/suP7t3p6q6Otyb1brrajxqarFcVdM0NZu0dbW8
+      qb3ppB69OKnFcjXwZHh/egNox01tjduaL+e13bZ1d2daF4vrmm61db1a1f50Us9Pz2u61QqA
+      W603gB+eHFdTVd1f56aq7u3Pqh2N6ujsotZd31Nw+/QGUPXPl//vzy9fz///NTAw/wIRTQBE
+      EwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0A
+      RBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBN
+      AEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQ
+      TQBEEwDRBEA0ARBNAEQTANEEQDQBEE0ARBMA0QRANAEQTQBEEwDRBEA0ARBNAET7E+BnjQij
+      PDUpAAAAAElFTkSuQmCC
+    </thumbnail>
+    <thumbnail height='84' name='Planilha 4' width='192'>
+      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
+      g1l4QnjgMAAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
